@@ -4,14 +4,14 @@
 # https://aka.ms/yaml
 
 trigger:
-- master
+- none
 
 pool:
   vmImage: ubuntu-latest
 
 steps:
 - script: echo Hello, world!
-  displayName: 'Run a one-line script'
+  displayName: 'Hello my first program'
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
